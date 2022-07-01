@@ -18,12 +18,11 @@ const ProjectRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/addaccount" element={<AddAccount />} />
         <Route path="/addtask" element={<AddTask />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/addmeeting" element={<AddMeeting />} />
         <Route path="/addtask1" element={<AddTask1 />} />
         <Route path="/contacts" element={<Contacts />} />
@@ -31,6 +30,7 @@ const ProjectRoutes = () => {
         <Route path="/addnotes" element={<Addnotes />} />
         <Route path="/addproducts" element={<AddProducts />} />
         <Route path="/tasks" element={<Tasks />} />
+        <Route path="/dhiwise-dashboard" element={<Home />} />
       </Routes>
     </Router>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 
+import AddContactsModal from "modals/AddContacts";
 import {
   Row,
   Stack,
@@ -12,6 +13,15 @@ import {
 } from "components";
 
 const ContactsPage = () => {
+  const [isOpenAddContactsModal, setAddContactsModal] = React.useState(false);
+
+  function handleOpenAddContactsModal() {
+    setAddContactsModal(true);
+  }
+  function handleCloseAddContactsModal() {
+    setAddContactsModal(false);
+  }
+
   return (
     <>
       <Row className="bg-bluegray_51 font-sourcesanspro items-center mx-[auto] w-[100%]">
@@ -72,6 +82,7 @@ const ContactsPage = () => {
             <Row className="items-center justify-center lg:ml-[413px] xl:ml-[473px] ml-[532px] 3xl:ml-[638px] w-[34%]">
               <Button
                 className="2xl:pr-[14px] 3xl:pl-[9px] 3xl:pr-[17px] 3xl:py-[15px] bg-bluegray_900 border border-gray_200 border-solid flex items-center justify-between lg:pl-[6px] lg:pr-[11px] lg:py-[10px] pl-[8px] pr-[14.8px] py-[13px] rounded-radius4 text-center w-[33%] xl:pl-[7px] xl:pr-[13px] xl:py-[11px]"
+                onClick={handleOpenAddContactsModal}
                 rightIcon={
                   <Image
                     src={"images/img_vector_106.svg"}
@@ -80,7 +91,7 @@ const ContactsPage = () => {
                   />
                 }
               >
-                <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700">
+                <div className="common-pointer bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700">
                   Import Contatcts
                 </div>
               </Button>
@@ -624,6 +635,13 @@ const ContactsPage = () => {
           </List>
         </Column>
       </Row>
+
+      {isOpenAddContactsModal ? (
+        <AddContactsModal
+          isOpen={isOpenAddContactsModal}
+          onRequestClose={handleCloseAddContactsModal}
+        />
+      ) : null}
     </>
   );
 };

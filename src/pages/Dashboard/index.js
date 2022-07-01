@@ -110,11 +110,11 @@ const DashboardPage = () => {
                   <Input
                     className="bg-transparent border-0 font-normal not-italic p-[0] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                     WrapClassName="2xl:pl-[10px] 2xl:py-[15px] 3xl:mr-[42px] 3xl:pl-[12px] 3xl:py-[18px] absolute bg-gray_50 border border-gray_200 border-solid flex lg:mr-[27px] lg:pl-[8px] lg:py-[12px] mr-[35px] pb-[15.66px] pl-[10.67px] pr-[0] pt-[15.67px] right-[14%] w-[48%] xl:mr-[31px] xl:pl-[9px] xl:py-[13px]"
-                    name="Add meeting"
+                    name="Group118"
                     placeholder="Add meeting"
                     prefix={
                       <Image
-                        src={"images/img_vector_42.svg"}
+                        src={"images/img_vector_43.svg"}
                         className="w-[16.67px] h-[16.67px] absolute lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                         alt="Vector"
                       />
@@ -159,7 +159,7 @@ const DashboardPage = () => {
                 <CheckBox
                   className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[10%]"
                   inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-white_A700 border-bluegray_50 border-bw083 border-solid h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius25 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
-                  name="Group117"
+                  name="Group119"
                   label="Select all"
                 ></CheckBox>
                 <Image
@@ -174,13 +174,13 @@ const DashboardPage = () => {
                   <CheckBox
                     className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[31%]"
                     inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-white_A700 border-bluegray_50 border-bw083 border-solid h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius25 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
-                    name="Group118"
+                    name="Group120"
                     label="Overdue"
                   ></CheckBox>
                   <CheckBox
                     className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[37%]"
                     inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-white_A700 border-bluegray_50 border-bw083 border-solid h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius25 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
-                    name="Group119"
+                    name="Group121"
                     label="Completed"
                   ></CheckBox>
                 </Row>
@@ -231,7 +231,7 @@ const DashboardPage = () => {
                               </Column>
                             </Column>
                             <Image
-                              src={"images/img_vector_43.svg"}
+                              src={"images/img_vector_44.svg"}
                               className="absolute bottom-[5%] h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] object-contain right-[13%] w-[61%]"
                               alt="Vector"
                             />
@@ -242,17 +242,17 @@ const DashboardPage = () => {
                                 <Column className="items-center pr-[1px] w-[100%]">
                                   <Stack className="lg:h-[15px] xl:h-[17px] h-[18.82px] 2xl:h-[19px] 3xl:h-[23px] w-[100%]">
                                     <Image
-                                      src={"images/img_vector_44.png"}
+                                      src={"images/img_vector_45.png"}
                                       className="absolute lg:h-[15px] xl:h-[17px] h-[18.75px] 2xl:h-[19px] 3xl:h-[23px] inset-y-[0] my-[auto] object-contain right-[0] w-[45%]"
                                       alt="Vector"
                                     />
                                     <Image
-                                      src={"images/img_vector_45.png"}
+                                      src={"images/img_vector_46.png"}
                                       className="absolute lg:h-[12px] h-[14.76px] xl:h-[14px] 2xl:h-[15px] 3xl:h-[18px] left-[0] object-contain top-[0] w-[65%]"
                                       alt="Vector"
                                     />
                                     <Image
-                                      src={"images/img_vector_46.png"}
+                                      src={"images/img_vector_47.png"}
                                       className="absolute lg:h-[12px] h-[14.76px] xl:h-[14px] 2xl:h-[15px] 3xl:h-[18px] left-[0] object-contain top-[0] w-[65%]"
                                       alt="Vector"
                                     />
@@ -267,19 +267,19 @@ const DashboardPage = () => {
                                 </Column>
                               </Column>
                               <Image
-                                src={"images/img_vector_47.svg"}
+                                src={"images/img_vector_48.svg"}
                                 className="absolute bottom-[1%] h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] object-contain right-[1%] w-[81%]"
                                 alt="Vector"
                               />
                             </Stack>
                             <Stack className="absolute bottom-[1%] h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] left-[18%] w-[46%]">
                               <Image
-                                src={"images/img_vector_48.png"}
+                                src={"images/img_vector_49.png"}
                                 className="absolute h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] inset-[0] object-cover w-[100%]"
                                 alt="Vector"
                               />
                               <Image
-                                src={"images/img_vector_49.png"}
+                                src={"images/img_vector_50.png"}
                                 className="absolute h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] inset-[0] object-cover w-[100%]"
                                 alt="Vector"
                               />
@@ -354,7 +354,7 @@ const DashboardPage = () => {
                             </Column>
                           </Column>
                           <Image
-                            src={"images/img_vector_50.svg"}
+                            src={"images/img_vector_51.svg"}
                             className="absolute bottom-[5%] h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] object-contain right-[13%] w-[61%]"
                             alt="Vector"
                           />
@@ -365,17 +365,17 @@ const DashboardPage = () => {
                               <Column className="items-center pr-[1px] w-[100%]">
                                 <Stack className="lg:h-[15px] xl:h-[17px] h-[18.82px] 2xl:h-[19px] 3xl:h-[23px] w-[100%]">
                                   <Image
-                                    src={"images/img_vector_51.png"}
+                                    src={"images/img_vector_52.png"}
                                     className="absolute lg:h-[15px] xl:h-[17px] h-[18.75px] 2xl:h-[19px] 3xl:h-[23px] inset-y-[0] my-[auto] object-contain right-[0] w-[45%]"
                                     alt="Vector"
                                   />
                                   <Image
-                                    src={"images/img_vector_52.png"}
+                                    src={"images/img_vector_53.png"}
                                     className="absolute lg:h-[12px] h-[14.76px] xl:h-[14px] 2xl:h-[15px] 3xl:h-[18px] left-[0] object-contain top-[0] w-[65%]"
                                     alt="Vector"
                                   />
                                   <Image
-                                    src={"images/img_vector_53.png"}
+                                    src={"images/img_vector_54.png"}
                                     className="absolute lg:h-[12px] h-[14.76px] xl:h-[14px] 2xl:h-[15px] 3xl:h-[18px] left-[0] object-contain top-[0] w-[65%]"
                                     alt="Vector"
                                   />
@@ -390,19 +390,19 @@ const DashboardPage = () => {
                               </Column>
                             </Column>
                             <Image
-                              src={"images/img_vector_54.svg"}
+                              src={"images/img_vector_55.svg"}
                               className="absolute bottom-[1%] h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] object-contain right-[1%] w-[81%]"
                               alt="Vector"
                             />
                           </Stack>
                           <Stack className="absolute bottom-[1%] h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] left-[18%] w-[46%]">
                             <Image
-                              src={"images/img_vector_55.png"}
+                              src={"images/img_vector_56.png"}
                               className="absolute h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] inset-[0] object-cover w-[100%]"
                               alt="Vector"
                             />
                             <Image
-                              src={"images/img_vector_56.png"}
+                              src={"images/img_vector_57.png"}
                               className="absolute h-[4.14px] xl:h-[4px] lg:h-[4px] 3xl:h-[5px] 2xl:h-[5px] inset-[0] object-cover w-[100%]"
                               alt="Vector"
                             />
@@ -423,11 +423,11 @@ const DashboardPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic p-[0] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                   WrapClassName="2xl:pl-[17px] 2xl:py-[11px] 3xl:ml-[133px] 3xl:pl-[21px] 3xl:py-[14px] absolute bg-gray_50 border border-gray_200 border-solid flex left-[26%] lg:ml-[86px] lg:pl-[13px] lg:py-[9px] ml-[111px] pb-[11.66px] pl-[17.55px] pr-[0] pt-[11.67px] rounded-radius4 w-[39%] xl:ml-[98px] xl:pl-[15px] xl:py-[10px]"
-                  name="Configure widge"
+                  name="Group117"
                   placeholder="Configure widgets"
                   prefix={
                     <Image
-                      src={"images/img_vector_57.svg"}
+                      src={"images/img_vector_58.svg"}
                       className="w-[16.37px] absolute lg:w-[12px] xl:w-[14px] 2xl:w-[16px] 3xl:w-[19px] my-[auto]"
                       alt="Vector"
                     />

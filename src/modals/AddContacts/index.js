@@ -19,7 +19,8 @@ const AddContactsModal = (props) => {
               </Text>
               <Image
                 src={"images/img_multiplyoutlin_5.svg"}
-                className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[312px] xl:ml-[357px] ml-[402px] 3xl:ml-[482px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                className="common-pointer lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[312px] xl:ml-[357px] ml-[402px] 3xl:ml-[482px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                onClick={props.onRequestClose}
                 alt="multiplyOutlin"
               />
             </Row>
@@ -33,7 +34,7 @@ const AddContactsModal = (props) => {
               <Input
                 className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] py-[11px] 3xl:py-[13px] lg:py-[8px] xl:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
                 WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
-                name="Enter First Nam"
+                name="Group179"
                 placeholder="Enter First Name"
               ></Input>
               <Text className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
@@ -45,7 +46,7 @@ const AddContactsModal = (props) => {
               <Input
                 className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] py-[11px] 3xl:py-[13px] lg:py-[8px] xl:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
                 WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
-                name="Enter Last Name"
+                name="Group180"
                 placeholder="Enter Last Name"
               ></Input>
             </Column>
@@ -56,7 +57,7 @@ const AddContactsModal = (props) => {
               <Input
                 className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] xl:py-[11px] py-[12.5px] 2xl:py-[12px] 3xl:py-[15px] lg:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
                 WrapClassName="border border-gray_200 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
-                name="Enter mobile nu"
+                name="Group181"
                 placeholder="Enter mobile number"
               ></Input>
             </Column>
@@ -67,7 +68,7 @@ const AddContactsModal = (props) => {
               <Input
                 className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] xl:py-[11px] py-[12.5px] 2xl:py-[12px] 3xl:py-[15px] lg:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
                 WrapClassName="border border-gray_200 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
-                name="Enter mail addr"
+                name="Group182"
                 placeholder="Enter mail addres"
               ></Input>
             </Column>

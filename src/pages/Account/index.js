@@ -100,7 +100,7 @@ const AccountPage = () => {
                   </Text>
                   <Row className="bg-indigo_51 border border-blue_800 border-solid items-center justify-center lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:pl-[14px] xl:pl-[16px] pl-[18px] 3xl:pl-[21px] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] 3xl:py-[10px] lg:py-[6px] xl:py-[7px] py-[8.5px] 2xl:py-[8px] rounded-radius4 w-[33%]">
                     <Image
-                      src={"images/img_vector_107.svg"}
+                      src={"images/img_vector_106.svg"}
                       className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:my-[2px] my-[3.5px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[19%]"
                       alt="Vector"
                     />
@@ -110,7 +110,7 @@ const AccountPage = () => {
                   </Row>
                   <Row className="bg-indigo_51 border border-blue_800 border-solid items-center justify-center lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:pl-[14px] xl:pl-[16px] pl-[18px] 3xl:pl-[21px] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] 3xl:py-[10px] lg:py-[6px] xl:py-[7px] py-[8.5px] 2xl:py-[8px] rounded-radius4 w-[19%]">
                     <Image
-                      src={"images/img_vector_108.svg"}
+                      src={"images/img_vector_107.svg"}
                       className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:my-[2px] my-[3.5px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[43%]"
                       alt="Vector"
                     />
@@ -124,7 +124,7 @@ const AccountPage = () => {
                     className="2xl:pr-[14px] 3xl:pl-[9px] 3xl:pr-[17px] 3xl:py-[15px] bg-bluegray_900 border border-gray_200 border-solid flex items-center justify-between lg:pl-[6px] lg:pr-[11px] lg:py-[10px] pl-[8px] pr-[14.8px] py-[13px] rounded-radius4 text-center w-[29%] xl:pl-[7px] xl:pr-[13px] xl:py-[11px]"
                     rightIcon={
                       <Image
-                        src={"images/img_vector_109.svg"}
+                        src={"images/img_vector_108.svg"}
                         className="w-[10.4px] text-center lg:w-[8px] xl:w-[9px] 2xl:w-[10px] 3xl:w-[12px]"
                         alt="Vector"
                       />
@@ -144,7 +144,7 @@ const AccountPage = () => {
                       Edit coumns
                     </Text>
                     <Image
-                      src={"images/img_angledownsoli_5.svg"}
+                      src={"images/img_angledownsoli_4.svg"}
                       className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       alt="angledownSoli"
                     />
@@ -179,7 +179,7 @@ const AccountPage = () => {
                         className="2xl:py-[15px] 3xl:pl-[67px] 3xl:py-[18px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[43px] lg:py-[12px] pb-[15.49px] pl-[56px] pr-[0] pt-[15.5px] text-center w-[100%] xl:pl-[49px] xl:py-[13px]"
                         leftIcon={
                           <Image
-                            src={"images/img_vector_110.svg"}
+                            src={"images/img_vector_109.svg"}
                             className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                             alt="Vector"
                           />
@@ -232,7 +232,7 @@ const AccountPage = () => {
                   <CheckBox
                     className="absolute font-semibold left-[7%] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 top-[4%] uppercase w-[28%]"
                     inputClassName="2xl:h-[23px] 3xl:h-[27px] 3xl:w-[26px] bg-white_A700 border-bluegray_300 border-bw083 border-solid h-[22px] lg:h-[18px] lg:w-[17px] rounded-radius25 w-[22px] xl:h-[20px] xl:w-[19px] mr-[5px]"
-                    name="Group297"
+                    name="Group289"
                     label="Name"
                   ></CheckBox>
                 </Stack>
@@ -240,19 +240,19 @@ const AccountPage = () => {
                   <CheckBox
                     className="font-bold lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[98%]"
                     inputClassName="2xl:h-[28px] 3xl:h-[33px] 3xl:w-[32px] bg-white_A700 border-bluegray_300 border-bw083 border-solid h-[27px] lg:h-[21px] lg:w-[21px] rounded-radius25 w-[27px] xl:h-[25px] xl:w-[24px] mr-[5px]"
-                    name="Group298"
+                    name="Group290"
                     label="Je"
                   ></CheckBox>
                   <CheckBox
                     className="font-bold lg:mt-[55px] xl:mt-[63px] mt-[71px] 3xl:mt-[85px] lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[100%]"
                     inputClassName="2xl:h-[28px] 3xl:h-[33px] 3xl:w-[32px] bg-white_A700 border-bluegray_300 border-bw083 border-solid h-[27px] lg:h-[21px] lg:w-[21px] rounded-radius25 w-[27px] xl:h-[25px] xl:w-[24px] mr-[5px]"
-                    name="Group299"
+                    name="Group291"
                     label="Wi"
                   ></CheckBox>
                   <CheckBox
                     className="font-bold lg:mt-[55px] xl:mt-[63px] mt-[71px] 3xl:mt-[85px] lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[98%]"
                     inputClassName="2xl:h-[28px] 3xl:h-[33px] 3xl:w-[32px] bg-white_A700 border-bluegray_300 border-bw083 border-solid h-[27px] lg:h-[21px] lg:w-[21px] rounded-radius25 w-[27px] xl:h-[25px] xl:w-[24px] mr-[5px]"
-                    name="Group300"
+                    name="Group292"
                     label="Le"
                   ></CheckBox>
                 </Column>
@@ -264,7 +264,7 @@ const AccountPage = () => {
                       Open deals amou...
                     </Text>
                     <Image
-                      src={"images/img_vector_111.svg"}
+                      src={"images/img_vector_110.svg"}
                       className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[7%]"
                       alt="Vector"
                     />
@@ -273,19 +273,19 @@ const AccountPage = () => {
                 <Input
                   className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="$200"
+                  name="Group257"
                   placeholder="$200"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="--"
+                  name="Group256"
                   placeholder="--"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="--"
+                  name="Group255"
                   placeholder="--"
                 ></Input>
               </Column>
@@ -296,7 +296,7 @@ const AccountPage = () => {
                       last contacted ti...
                     </Text>
                     <Image
-                      src={"images/img_vector_112.svg"}
+                      src={"images/img_vector_111.svg"}
                       className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[7%]"
                       alt="Vector"
                     />
@@ -305,19 +305,19 @@ const AccountPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="Not Available"
+                  name="Group261"
                   placeholder="Not Available"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="13 days ago"
+                  name="Group260"
                   placeholder="13 days ago"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="Not Available"
+                  name="Group259"
                   placeholder="Not Available"
                 ></Input>
               </Column>
@@ -326,13 +326,13 @@ const AccountPage = () => {
                   <Input
                     className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 uppercase w-[100%]"
                     WrapClassName="bg-gray_100 border border-gray_200 border-solid w-[100%]"
-                    name="Related contact"
+                    name="Group266"
                     placeholder="Related contacts"
                   ></Input>
                   <Input
                     className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                     WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                    name="--"
+                    name="Group265"
                     placeholder="--"
                   ></Input>
                   <Column className="font-inter items-center w-[100%]">
@@ -357,7 +357,7 @@ const AccountPage = () => {
                     className="2xl:pr-[47px] 3xl:pl-[14px] 3xl:pr-[57px] 3xl:py-[19px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[9px] lg:pr-[37px] lg:py-[12px] pl-[12px] pr-[47.59px] py-[16px] text-center w-[100%] xl:pl-[10px] xl:pr-[42px] xl:py-[14px]"
                     rightIcon={
                       <Image
-                        src={"images/img_vector_113.svg"}
+                        src={"images/img_vector_112.svg"}
                         className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                         alt="Vector"
                       />
@@ -370,19 +370,19 @@ const AccountPage = () => {
                   <Input
                     className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                     WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                    name="Jemee Tala"
+                    name="Group269"
                     placeholder="Jemee Tala"
                   ></Input>
                   <Input
                     className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                     WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                    name="Jemee Tala"
+                    name="Group268"
                     placeholder="Jemee Tala"
                   ></Input>
                   <Input
                     className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                     WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                    name="Jemee Tala"
+                    name="Group267"
                     placeholder="Jemee Tala"
                   ></Input>
                 </Column>
@@ -392,7 +392,7 @@ const AccountPage = () => {
                   className="2xl:py-[19px] 3xl:pl-[90px] 3xl:py-[23px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[58px] lg:py-[15px] pb-[19.49px] pl-[75px] pr-[0] pt-[19.5px] text-center w-[100%] xl:pl-[66px] xl:py-[17px]"
                   leftIcon={
                     <Image
-                      src={"images/img_vector_114.svg"}
+                      src={"images/img_vector_113.svg"}
                       className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                       alt="Vector"
                     />
@@ -405,19 +405,19 @@ const AccountPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="www.dhiwise.com"
+                  name="Group273"
                   placeholder="www.dhiwise.com"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="widgetz.io"
+                  name="Group272"
                   placeholder="widgetz.io"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="Not Available"
+                  name="Group271"
                   placeholder="Not Available"
                 ></Input>
               </Column>
@@ -426,7 +426,7 @@ const AccountPage = () => {
                   className="2xl:py-[19px] 3xl:pl-[70px] 3xl:py-[23px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[45px] lg:py-[15px] pb-[19.49px] pl-[59px] pr-[0] pt-[19.5px] text-center w-[100%] xl:pl-[52px] xl:py-[17px]"
                   leftIcon={
                     <Image
-                      src={"images/img_vector_115.svg"}
+                      src={"images/img_vector_114.svg"}
                       className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                       alt="Vector"
                     />
@@ -439,19 +439,19 @@ const AccountPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="1234567866"
+                  name="Group277"
                   placeholder="1234567866"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="2344566766"
+                  name="Group276"
                   placeholder="2344566766"
                 ></Input>
                 <Input
                   className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="Not Available"
+                  name="Group275"
                   placeholder="Not Available"
                 ></Input>
               </Column>
@@ -465,7 +465,7 @@ const AccountPage = () => {
           <Input
             className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[16px] xl:py-[19px] py-[21.5px] 2xl:py-[21px] 3xl:py-[25px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
             WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-            name="Showing 1-3 of "
+            name="Group250"
             placeholder="Showing 1-3 of 3"
           ></Input>
         </Column>

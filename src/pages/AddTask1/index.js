@@ -45,7 +45,7 @@ const AddTask1Page = () => {
                   className="2xl:pb-[19px] 2xl:pt-[18px] 3xl:pb-[23px] 3xl:pl-[19px] 3xl:pr-[24px] 3xl:pt-[22px] border border-gray_200 border-solid flex items-center justify-between lg:pb-[15px] lg:pl-[12px] lg:pr-[15px] lg:pt-[14px] pb-[19.5px] pl-[16px] pr-[20px] pt-[18.5px] text-center w-[36%] xl:pb-[17px] xl:pl-[14px] xl:pr-[17px] xl:pt-[16px]"
                   rightIcon={
                     <Image
-                      src={"images/img_vector_84.svg"}
+                      src={"images/img_vector_85.svg"}
                       className="w-[16.01px] h-[16.01px] text-center lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px]"
                       alt="Vector"
                     />
@@ -141,185 +141,127 @@ const AddTask1Page = () => {
                   </Row>
                 </Column>
               </Column>
-              <Column className="absolute bg-white_A700 h-[max-content] inset-y-[0] items-center justify-start my-[auto] right-[0] w-[60%]">
-                <Row className="bg-gray_100 border border-indigo_50 border-solid items-center justify-between lg:p-[12px] xl:p-[14px] p-[16px] 3xl:p-[19px] w-[100%]">
-                  <Text className="font-normal mb-[1px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_901 w-[auto]">
-                    Add task
+              <Column className="absolute bg-white_A700 h-[max-content] inset-y-[0] items-start justify-start my-[auto] overflow-auto right-[0] w-[35%]">
+                <Column className="items-start w-[100%]">
+                  <Input
+                    className="bg-transparent border-0 font-normal not-italic lg:pb-[15px] xl:pb-[17px] pb-[19.5px] 2xl:pb-[19px] 3xl:pb-[23px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pt-[14px] xl:pt-[16px] pt-[18.5px] 2xl:pt-[18px] 3xl:pt-[22px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
+                    WrapClassName="bg-gray_100 border border-indigo_50 border-solid w-[100%]"
+                    name="Group186"
+                    placeholder="Add task"
+                  ></Input>
+                  <Input
+                    className="bg-transparent border-0 font-normal not-italic lg:pl-[27px] xl:pl-[31px] pl-[35px] 3xl:pl-[42px] lg:py-[14px] xl:py-[16px] py-[18.5px] 2xl:py-[18px] 3xl:py-[22px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
+                    WrapClassName="3xl:ml-[19px] 3xl:mt-[19px] bg-bluegray_50 lg:ml-[12px] lg:mt-[12px] ml-[16px] mt-[16px] w-[97%] xl:ml-[14px] xl:mt-[14px]"
+                    name="Group218"
+                    placeholder="Mark as completed"
+                  ></Input>
+                  <Text className="font-normal lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
+                    <span className="text-black_900 font-sourcesanspro">
+                      Title{" "}
+                    </span>
+                    <span className="text-red_700 font-sourcesanspro">*</span>
                   </Text>
-                  <Image
-                    src={"images/img_multiplyoutlin_6.svg"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[534px] xl:ml-[611px] ml-[687px] 3xl:ml-[824px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    alt="multiplyOutlin"
-                  />
-                </Row>
-                <Row className="items-start justify-end lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] w-[100%]">
-                  <Column className="items-start justify-start lg:mb-[304px] xl:mb-[348px] mb-[392px] 3xl:mb-[470px] lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[61%]">
-                    <Input
-                      className="bg-transparent border-0 font-normal not-italic lg:pl-[27px] xl:pl-[31px] pl-[35px] 3xl:pl-[42px] lg:py-[14px] xl:py-[16px] py-[18.5px] 2xl:py-[18px] 3xl:py-[22px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
-                      WrapClassName="bg-bluegray_50 w-[100%]"
-                      name="Mark as complet"
-                      placeholder="Mark as completed"
-                    ></Input>
-                    <Text className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                      <span className="text-black_900 font-sourcesanspro">
-                        Title{" "}
-                      </span>
-                      <span className="text-red_700 font-sourcesanspro">*</span>
+                </Column>
+                <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] w-[100%]">
+                  <Row className="bg-white_A700 border border-bluegray_100 border-solid items-center justify-between xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] rounded-radius4 w-[100%]">
+                    <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_200 w-[auto]">
+                      Enter title of task
                     </Text>
-                    <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]">
-                      <Row className="bg-white_A700 border border-bluegray_100 border-solid items-center justify-between xl:px-[10px] px-[12px] 3xl:px-[14px] lg:px-[9px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] rounded-radius4 w-[100%]">
-                        <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_200 w-[auto]">
-                          Enter title of task
-                        </Text>
-                        <Image
-                          src={"images/img_multiplysolid.svg"}
-                          className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[264px] xl:ml-[302px] ml-[340px] 3xl:ml-[408px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                          alt="multiplySolid"
-                        />
-                      </Row>
-                    </Column>
-                    <Text className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                      Description
-                    </Text>
-                    <Input
-                      className="bg-transparent border-0 font-normal not-italic lg:pb-[30px] xl:pb-[34px] pb-[39px] 3xl:pb-[46px] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pt-[12px] xl:pt-[14px] pt-[16px] 3xl:pt-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
-                      WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
-                      name="Start typing th"
-                      placeholder="Start typing the details about the task"
-                    ></Input>
-                    <Column className="items-center lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]">
-                      <Row className="items-center justify-between w-[100%]">
-                        <List
-                          className="lg:gap-[18px] xl:gap-[21px] gap-[24px] 3xl:gap-[28px] grid grid-cols-2 min-h-[auto] w-[65%]"
-                          orientation="horizontal"
-                        >
-                          <Column className="items-start justify-start w-[100%]">
-                            <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                              Task Type
-                            </Text>
-                            <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]">
-                              <Row className="border border-gray_200 border-solid items-center justify-between lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[16px] xl:pr-[19px] pr-[21.66px] 2xl:pr-[21px] 3xl:pr-[26px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[100%]">
-                                <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]">
-                                  Select type
-                                </Text>
-                                <Image
-                                  src={"images/img_vector_85.svg"}
-                                  className="h-[5.17px] xl:h-[5px] lg:h-[5px] 2xl:h-[6px] 3xl:h-[7px] mb-[8.91px] lg:ml-[26px] xl:ml-[30px] ml-[34px] 3xl:ml-[40px] mt-[8.92px] 3xl:my-[10px] lg:my-[6px] xl:my-[7px] 2xl:my-[8px] object-contain w-[8%]"
-                                  alt="Vector"
-                                />
-                              </Row>
-                            </Column>
-                          </Column>
-                          <Column className="items-start justify-start w-[100%]">
-                            <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                              <span className="text-black_900 font-sourcesanspro">
-                                Due date
-                              </span>
-                              <span className="text-red_700 font-sourcesanspro">
-                                *
-                              </span>
-                            </Text>
-                            <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]">
-                              <Row className="border border-gray_200 border-solid items-center justify-start lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[27px] xl:pr-[31px] pr-[34.99px] 2xl:pr-[35px] 3xl:pr-[42px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[100%]">
-                                <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]">
-                                  06/28/2022
-                                </Text>
-                                <Image
-                                  src={"images/img_vector_86.svg"}
-                                  className="lg:h-[13px] xl:h-[15px] h-[16.67px] 2xl:h-[17px] 3xl:h-[21px] mb-[3.16px] xl:ml-[10px] ml-[11.67px] 2xl:ml-[11px] 3xl:ml-[14px] lg:ml-[9px] mt-[3.17px] xl:my-[2px] lg:my-[2px] 3xl:my-[3px] 2xl:my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16.67px] 2xl:w-[16px] 3xl:w-[20px]"
-                                  alt="Vector"
-                                />
-                              </Row>
-                            </Column>
-                          </Column>
-                        </List>
-                        <Row className="border border-gray_200 border-solid items-start justify-between lg:ml-[18px] xl:ml-[21px] ml-[24.01px] 2xl:ml-[24px] 3xl:ml-[28px] lg:pb-[6px] xl:pb-[7px] pb-[8px] 3xl:pb-[9px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[13px] xl:pr-[15px] pr-[17.66px] 2xl:pr-[17px] 3xl:pr-[21px] lg:pt-[26px] xl:pt-[30px] pt-[34px] 3xl:pt-[40px] rounded-radius4 w-[30%]">
-                          <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]">
-                            09:40
+                    <Image
+                      src={"images/img_multiplysolid.svg"}
+                      className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[264px] xl:ml-[302px] ml-[340px] 3xl:ml-[408px] my-[1px] object-contain w-[1%]"
+                      alt="multiplySolid"
+                    />
+                  </Row>
+                </Column>
+                <Column className="items-start lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] w-[100%]">
+                  <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
+                    Description
+                  </Text>
+                  <Input
+                    className="bg-transparent border-0 font-normal not-italic lg:pb-[30px] xl:pb-[34px] pb-[39px] 3xl:pb-[46px] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pt-[12px] xl:pt-[14px] pt-[16px] 3xl:pt-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
+                    WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                    name="Group211"
+                    placeholder="Start typing the details about the task"
+                  ></Input>
+                </Column>
+                <Row className="items-center justify-end lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]">
+                  <List
+                    className="lg:gap-[18px] xl:gap-[21px] gap-[24px] 3xl:gap-[28px] grid grid-cols-2 min-h-[auto] w-[22%]"
+                    orientation="horizontal"
+                  >
+                    <Column className="items-start justify-start w-[100%]">
+                      <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
+                        Task Type
+                      </Text>
+                      <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]">
+                        <Row className="border border-gray_200 border-solid items-center justify-between lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[16px] xl:pr-[19px] pr-[21.66px] 2xl:pr-[21px] 3xl:pr-[26px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[100%]">
+                          <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]">
+                            Select type
                           </Text>
                           <Image
-                            src={"images/img_vector_87.svg"}
-                            className="lg:h-[13px] xl:h-[15px] h-[16.67px] 2xl:h-[17px] 3xl:h-[21px] mb-[3.16px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] mt-[3.17px] xl:my-[2px] lg:my-[2px] 3xl:my-[3px] 2xl:my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16.67px] 2xl:w-[16px] 3xl:w-[20px]"
+                            src={"images/img_vector_86.svg"}
+                            className="h-[5.17px] xl:h-[5px] lg:h-[5px] 2xl:h-[6px] 3xl:h-[7px] mb-[8.91px] lg:ml-[26px] xl:ml-[30px] ml-[34px] 3xl:ml-[40px] mt-[8.92px] 3xl:my-[10px] lg:my-[6px] xl:my-[7px] 2xl:my-[8px] object-contain w-[8%]"
                             alt="Vector"
                           />
                         </Row>
-                      </Row>
-                      <Column className="items-start justify-start lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]">
-                        <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                          Task Type
-                        </Text>
-                        <Input
-                          className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
-                          WrapClassName="2xl:pr-[21px] 2xl:py-[12px] 3xl:pl-[19px] 3xl:pr-[26px] 3xl:py-[15px] border border-gray_200 border-solid flex lg:mt-[3px] lg:pl-[12px] lg:pr-[16px] lg:py-[9px] mt-[4px] pl-[16px] pr-[21.66px] py-[12.5px] rounded-radius4 w-[100%] xl:mt-[3px] xl:pl-[14px] xl:pr-[19px] xl:py-[11px]"
-                          name="Select an outco"
-                          placeholder="Select an outcome"
-                          suffix={
-                            <Image
-                              src={"images/img_vector_88.svg"}
-                              className="w-[8.67px] lg:w-[6px] xl:w-[7px] 2xl:w-[8px] 3xl:w-[10px] my-[auto]"
-                              alt="Vector"
-                            />
-                          }
-                        ></Input>
                       </Column>
                     </Column>
-                  </Column>
-                  <Column className="bg-gray_100 border border-gray_200 border-solid items-start justify-center lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:pb-[486px] xl:pb-[555px] pb-[625px] 3xl:pb-[750px] lg:pt-[12px] xl:pt-[14px] pt-[16px] 3xl:pt-[19px] w-[37%]">
-                    <Text className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                      Owner
-                    </Text>
-                    <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] lg:px-[18px] xl:px-[21px] px-[24px] 3xl:px-[28px] w-[100%]">
-                      <Row className="bg-white_A700 border border-gray_200 border-solid items-center justify-between lg:px-[12px] xl:px-[14px] px-[16px] 3xl:px-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[100%]">
-                        <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]">
-                          Jemee Tala
-                        </Text>
-                        <Image
-                          src={"images/img_frame456.svg"}
-                          className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] 3xl:ml-[116px] lg:ml-[75px] xl:ml-[86px] ml-[97px] my-[1px] object-contain w-[23%]"
-                          alt="Frame456"
-                        />
-                      </Row>
+                    <Column className="items-start justify-start w-[100%]">
+                      <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
+                        <span className="text-black_900 font-sourcesanspro">
+                          Due date
+                        </span>
+                        <span className="text-red_700 font-sourcesanspro">
+                          *
+                        </span>
+                      </Text>
+                      <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]">
+                        <Row className="border border-gray_200 border-solid items-center justify-start lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[27px] xl:pr-[31px] pr-[34.99px] 2xl:pr-[35px] 3xl:pr-[42px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[100%]">
+                          <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]">
+                            06/28/2022
+                          </Text>
+                          <Image
+                            src={"images/img_vector_87.svg"}
+                            className="lg:h-[13px] xl:h-[15px] h-[16.67px] 2xl:h-[17px] 3xl:h-[21px] mb-[3.16px] xl:ml-[10px] ml-[11.67px] 2xl:ml-[11px] 3xl:ml-[14px] lg:ml-[9px] mt-[3.17px] xl:my-[2px] lg:my-[2px] 3xl:my-[3px] 2xl:my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16.67px] 2xl:w-[16px] 3xl:w-[20px]"
+                            alt="Vector"
+                          />
+                        </Row>
+                      </Column>
                     </Column>
-                    <Text className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:mt-[18px] xl:mt-[21px] mt-[24px] 3xl:mt-[28px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                      Related to
+                  </List>
+                  <Row className="border border-gray_200 border-solid items-start justify-center lg:pb-[6px] xl:pb-[7px] pb-[8px] 3xl:pb-[9px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[1020px] xl:pr-[1167px] pr-[1312.33px] 2xl:pr-[1313px] 3xl:pr-[1575px] lg:pt-[26px] xl:pt-[30px] pt-[34px] 3xl:pt-[40px] rounded-radius4 w-[100%]">
+                    <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]">
+                      09:40
+                    </Text>
+                    <Image
+                      src={"images/img_vector_88.svg"}
+                      className="lg:h-[13px] xl:h-[15px] h-[16.67px] 2xl:h-[17px] 3xl:h-[21px] mb-[3.16px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] mt-[3.17px] xl:my-[2px] lg:my-[2px] 3xl:my-[3px] 2xl:my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16.67px] 2xl:w-[16px] 3xl:w-[20px]"
+                      alt="Vector"
+                    />
+                  </Row>
+                </Row>
+                <Column className="items-center lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]">
+                  <Column className="items-start justify-start w-[97%]">
+                    <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
+                      Task Type
                     </Text>
                     <Input
-                      className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
-                      WrapClassName="2xl:pr-[21px] 2xl:py-[12px] 3xl:ml-[28px] 3xl:pl-[19px] 3xl:pr-[26px] 3xl:py-[15px] bg-white_A700 border border-gray_200 border-solid flex lg:ml-[18px] lg:mt-[3px] lg:pl-[12px] lg:pr-[16px] lg:py-[9px] ml-[24px] mt-[4px] pl-[16px] pr-[21.66px] py-[12.5px] rounded-radius4 w-[84%] xl:ml-[21px] xl:mt-[3px] xl:pl-[14px] xl:pr-[19px] xl:py-[11px]"
-                      name="Link this task "
-                      placeholder="Link this task to"
+                      className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
+                      WrapClassName="2xl:py-[12px] 3xl:pl-[19px] 3xl:py-[15px] border border-gray_200 border-solid flex lg:mt-[3px] lg:pl-[12px] lg:py-[9px] mt-[4px] pl-[16px] pr-[0] py-[12.5px] rounded-radius4 w-[100%] xl:mt-[3px] xl:pl-[14px] xl:py-[11px]"
+                      name="Group224"
+                      placeholder="Select an outcome"
                       suffix={
                         <Image
                           src={"images/img_vector_89.svg"}
-                          className="w-[8.67px] lg:w-[6px] xl:w-[7px] 2xl:w-[8px] 3xl:w-[10px] my-[auto]"
+                          className="w-[4.33px] lg:w-[3px] xl:w-[3px] 2xl:w-[4px] 3xl:w-[5px] my-[auto]"
                           alt="Vector"
                         />
                       }
                     ></Input>
-                    <Column className="items-center lg:mt-[18px] xl:mt-[21px] mt-[24px] 3xl:mt-[28px] lg:px-[18px] xl:px-[21px] px-[24px] 3xl:px-[28px] w-[100%]">
-                      <Column className="items-start justify-start w-[100%]">
-                        <Text className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
-                          Collaborators (0)
-                        </Text>
-                        <Column className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]">
-                          <Image
-                            src={"images/img_frame418_3.svg"}
-                            className="lg:h-[28px] xl:h-[33px] h-[36px] 2xl:h-[37px] 3xl:h-[44px] object-cover rounded-radius4 w-[100%]"
-                            alt="Frame418"
-                          />
-                        </Column>
-                      </Column>
-                    </Column>
                   </Column>
-                </Row>
-                <Row className="bg-gray_100 border border-indigo_50 border-solid items-center justify-center lg:pl-[505px] xl:pl-[578px] pl-[650px] 3xl:pl-[780px] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] lg:py-[18px] xl:py-[21px] py-[24px] 3xl:py-[28px] w-[100%]">
-                  <Button className="bg-white_A700 border border-gray_200 border-solid font-normal not-italic xl:py-[11px] py-[12.5px] 2xl:py-[12px] 3xl:py-[15px] lg:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 text-center w-[51%]">
-                    Cancel
-                  </Button>
-                  <Button className="bg-bluegray_900 border border-gray_200 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic xl:py-[11px] py-[12.5px] 2xl:py-[12px] 3xl:py-[15px] lg:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-center text-white_A700 w-[42%]">
-                    Save
-                  </Button>
-                </Row>
+                  <div className="bg-gray_100 border border-indigo_50 border-solid 3xl:h-[105px] lg:h-[68px] xl:h-[78px] h-[87px] 2xl:h-[88px] lg:mt-[304px] xl:mt-[348px] mt-[392px] 3xl:mt-[470px] w-[100%]"></div>
+                </Column>
               </Column>
             </Stack>
             <Column className="absolute h-[max-content] inset-[0] items-center justify-center m-[auto] w-[98%]">
@@ -402,7 +344,7 @@ const AddTask1Page = () => {
                       <Input
                         className="bg-transparent border-0 font-normal not-italic p-[0] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                         WrapClassName="2xl:pl-[17px] 2xl:py-[15px] 3xl:pl-[21px] 3xl:py-[18px] bg-gray_50 border border-gray_200 border-solid flex lg:pl-[13px] lg:py-[12px] pb-[15.66px] pl-[17.67px] pr-[0] pt-[15.67px] w-[48%] xl:pl-[15px] xl:py-[13px]"
-                        name="Add meeting"
+                        name="Group220"
                         placeholder="Add meeting"
                         prefix={
                           <Image
@@ -706,7 +648,7 @@ const AddTask1Page = () => {
                     <Input
                       className="bg-transparent border-0 font-normal not-italic p-[0] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                       WrapClassName="2xl:pl-[17px] 2xl:py-[11px] 3xl:ml-[133px] 3xl:pl-[21px] 3xl:py-[14px] absolute bg-gray_50 border border-gray_200 border-solid flex left-[26%] lg:ml-[86px] lg:pl-[13px] lg:py-[9px] ml-[111px] pb-[11.66px] pl-[17.55px] pr-[0] pt-[11.67px] rounded-radius4 w-[39%] xl:ml-[98px] xl:pl-[15px] xl:py-[10px]"
-                      name="Configure widge"
+                      name="Group219"
                       placeholder="Configure widgets"
                       prefix={
                         <Image

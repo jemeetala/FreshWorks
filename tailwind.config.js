@@ -49,6 +49,7 @@ module.exports = {
         radius25: "2.5px",
         radius40: "40px",
         radius50: "50%",
+        radius2084: "20.84px",
       },
       borderWidth: { bw083: "0.83px" },
       letterSpacing: { ls1: "1px" },

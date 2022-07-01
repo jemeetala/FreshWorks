@@ -92,7 +92,7 @@ const TasksPage = () => {
                       <CheckBox
                         className="absolute font-normal inset-y-[0] left-[0] my-[auto] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[82%]"
                         inputClassName="2xl:h-[27px] 3xl:h-[32px] 3xl:w-[31px] bg-white_A700 border-bluegray_200 border-bw083 border-solid h-[26px] lg:h-[21px] lg:w-[20px] rounded-radius25 w-[26px] xl:h-[24px] xl:w-[23px] mr-[5px]"
-                        name="Group369"
+                        name="Group361"
                         label="This is just a sample task"
                       ></CheckBox>
                       <Column className="absolute h-[max-content] inset-y-[0] items-start justify-start left-[6%] my-[auto] w-[78%]">
@@ -113,7 +113,7 @@ const TasksPage = () => {
                       <CheckBox
                         className="absolute font-normal inset-y-[0] left-[0] my-[auto] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[100%]"
                         inputClassName="2xl:h-[27px] 3xl:h-[32px] 3xl:w-[31px] bg-white_A700 border-bluegray_200 border-bw083 border-solid h-[26px] lg:h-[21px] lg:w-[20px] rounded-radius25 w-[26px] xl:h-[24px] xl:w-[23px] mr-[5px]"
-                        name="Group364"
+                        name="Group356"
                         label="This is just a sample task"
                       ></CheckBox>
                       <Column className="absolute h-[max-content] inset-y-[0] items-start justify-start left-[6%] my-[auto] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] w-[73%]">
@@ -129,7 +129,7 @@ const TasksPage = () => {
                       <CheckBox
                         className="absolute font-normal inset-y-[0] left-[0] my-[auto] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[100%]"
                         inputClassName="2xl:h-[27px] 3xl:h-[32px] 3xl:w-[31px] bg-white_A700 border-bluegray_200 border-bw083 border-solid h-[26px] lg:h-[21px] lg:w-[20px] rounded-radius25 w-[26px] xl:h-[24px] xl:w-[23px] mr-[5px]"
-                        name="Group365"
+                        name="Group357"
                         label="This is just a sample task"
                       ></CheckBox>
                       <Column className="absolute h-[max-content] inset-y-[0] items-start justify-start left-[6%] my-[auto] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] w-[73%]">
@@ -145,7 +145,7 @@ const TasksPage = () => {
                       <CheckBox
                         className="absolute font-normal inset-y-[0] left-[0] my-[auto] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[100%]"
                         inputClassName="2xl:h-[27px] 3xl:h-[32px] 3xl:w-[31px] bg-white_A700 border-bluegray_200 border-bw083 border-solid h-[26px] lg:h-[21px] lg:w-[20px] rounded-radius25 w-[26px] xl:h-[24px] xl:w-[23px] mr-[5px]"
-                        name="Group366"
+                        name="Group358"
                         label="This is just a sample task"
                       ></CheckBox>
                       <Column className="absolute h-[max-content] inset-y-[0] items-start justify-start left-[6%] my-[auto] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] w-[73%]">
@@ -167,7 +167,7 @@ const TasksPage = () => {
                         <CheckBox
                           className="absolute font-normal inset-x-[0] inset-y-[35%] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[100%]"
                           inputClassName="2xl:h-[27px] 3xl:h-[32px] 3xl:w-[31px] bg-white_A700 border-bluegray_200 border-bw083 border-solid h-[26px] lg:h-[21px] lg:w-[20px] rounded-radius25 w-[26px] xl:h-[24px] xl:w-[23px] mr-[5px]"
-                          name="Group367"
+                          name="Group359"
                           label="This is just a sample task"
                         ></CheckBox>
                         <Column className="absolute items-start justify-start lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] right-[0] w-[73%]">
@@ -189,7 +189,7 @@ const TasksPage = () => {
                       <CheckBox
                         className="absolute font-normal inset-y-[0] left-[0] my-[auto] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[100%]"
                         inputClassName="2xl:h-[27px] 3xl:h-[32px] 3xl:w-[31px] bg-white_A700 border-bluegray_200 border-bw083 border-solid h-[26px] lg:h-[21px] lg:w-[20px] rounded-radius25 w-[26px] xl:h-[24px] xl:w-[23px] mr-[5px]"
-                        name="Group368"
+                        name="Group360"
                         label="This is just a sample task"
                       ></CheckBox>
                       <Column className="absolute h-[max-content] inset-y-[0] items-start justify-start left-[6%] my-[auto] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] w-[73%]">
@@ -206,7 +206,7 @@ const TasksPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic lg:pb-[15px] xl:pb-[18px] pb-[20.5px] 2xl:pb-[20px] 3xl:pb-[24px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pt-[16px] xl:pt-[19px] pt-[21.5px] 2xl:pt-[21px] 3xl:pt-[25px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                   WrapClassName="border border-gray_200 border-solid w-[100%]"
-                  name="Showing task du"
+                  name="Group133"
                   placeholder="Showing task due from 18 may 2022 - 22 May 2023"
                 ></Input>
               </Column>

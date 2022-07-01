@@ -222,19 +222,19 @@ const AddAccountPage = () => {
                       <Input
                         className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="$200"
+                        name="Group18"
                         placeholder="$200"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="--"
+                        name="Group17"
                         placeholder="--"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="--"
+                        name="Group16"
                         placeholder="--"
                       ></Input>
                     </Column>
@@ -254,19 +254,19 @@ const AddAccountPage = () => {
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="Not Available"
+                        name="Group22"
                         placeholder="Not Available"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="13 days ago"
+                        name="Group21"
                         placeholder="13 days ago"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="Not Available"
+                        name="Group20"
                         placeholder="Not Available"
                       ></Input>
                     </Column>
@@ -275,13 +275,13 @@ const AddAccountPage = () => {
                         <Input
                           className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 uppercase w-[100%]"
                           WrapClassName="bg-gray_100 border border-gray_200 border-solid w-[100%]"
-                          name="Related contact"
+                          name="Group27"
                           placeholder="Related contacts"
                         ></Input>
                         <Input
                           className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                           WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                          name="--"
+                          name="Group26"
                           placeholder="--"
                         ></Input>
                         <Column className="font-inter items-center w-[100%]">
@@ -319,19 +319,19 @@ const AddAccountPage = () => {
                         <Input
                           className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                           WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                          name="Jemee Tala"
+                          name="Group30"
                           placeholder="Jemee Tala"
                         ></Input>
                         <Input
                           className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                           WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                          name="Jemee Tala"
+                          name="Group29"
                           placeholder="Jemee Tala"
                         ></Input>
                         <Input
                           className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                           WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                          name="Jemee Tala"
+                          name="Group28"
                           placeholder="Jemee Tala"
                         ></Input>
                       </Column>
@@ -354,19 +354,19 @@ const AddAccountPage = () => {
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="www.dhiwise.com"
+                        name="Group34"
                         placeholder="www.dhiwise.com"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="widgetz.io"
+                        name="Group33"
                         placeholder="widgetz.io"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="Not Available"
+                        name="Group32"
                         placeholder="Not Available"
                       ></Input>
                     </Column>
@@ -388,19 +388,19 @@ const AddAccountPage = () => {
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="1234567866"
+                        name="Group38"
                         placeholder="1234567866"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-blue_800 text-blue_800 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="2344566766"
+                        name="Group37"
                         placeholder="2344566766"
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                         WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                        name="Not Available"
+                        name="Group36"
                         placeholder="Not Available"
                       ></Input>
                     </Column>
@@ -414,7 +414,7 @@ const AddAccountPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[16px] xl:py-[19px] py-[21.5px] 2xl:py-[21px] 3xl:py-[25px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                   WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                  name="Showing 1-3 of "
+                  name="Group11"
                   placeholder="Showing 1-3 of 3"
                 ></Input>
               </Column>
@@ -428,7 +428,7 @@ const AddAccountPage = () => {
                   <Input
                     className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                     WrapClassName="2xl:pb-[19px] 2xl:pt-[18px] 3xl:pb-[23px] 3xl:pl-[19px] 3xl:pr-[24px] 3xl:pt-[22px] bg-gray_100 border border-indigo_50 border-solid flex lg:pb-[15px] lg:pl-[12px] lg:pr-[15px] lg:pt-[14px] pb-[19.5px] pl-[16px] pr-[20px] pt-[18.5px] w-[100%] xl:pb-[17px] xl:pl-[14px] xl:pr-[17px] xl:pt-[16px]"
-                    name="Add Account"
+                    name="Group53"
                     placeholder="Add Account"
                     suffix={
                       <Image
@@ -445,7 +445,7 @@ const AddAccountPage = () => {
                           <Input
                             className="bg-transparent border-0 font-normal not-italic p-[0] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
                             WrapClassName="2xl:pl-[17px] 2xl:py-[15px] 3xl:pl-[21px] 3xl:py-[18px] bg-white_A700 border border-gray_200 border-solid flex lg:pl-[13px] lg:py-[12px] pb-[15.66px] pl-[17.63px] pr-[0] pt-[15.63px] rounded-radius4 w-[100%] xl:pl-[15px] xl:py-[13px]"
-                            name="Search for a fi"
+                            name="Group54"
                             placeholder="Search for a field"
                             prefix={
                               <Image
@@ -467,7 +467,7 @@ const AddAccountPage = () => {
                         <Input
                           className="bg-transparent border-0 font-normal not-italic lg:pl-[13px] xl:pl-[15px] pl-[17px] 3xl:pl-[20px] lg:py-[14px] xl:py-[16px] py-[18.5px] 2xl:py-[18px] 3xl:py-[22px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                           WrapClassName="bg-bluegray_50 w-[100%]"
-                          name="Basic Informati"
+                          name="Group45"
                           placeholder="Basic Information"
                         ></Input>
                         <Text className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
@@ -481,7 +481,7 @@ const AddAccountPage = () => {
                         <Input
                           className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] py-[11px] 3xl:py-[13px] lg:py-[8px] xl:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
                           WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
-                          name="Enter name"
+                          name="Group46"
                           placeholder="Enter name"
                         ></Input>
                         <Text className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]">
@@ -490,7 +490,7 @@ const AddAccountPage = () => {
                         <Input
                           className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
                           WrapClassName="2xl:pr-[15px] 3xl:pl-[14px] 3xl:pr-[18px] 3xl:py-[13px] bg-white_A700 border border-bluegray_100 border-solid flex lg:mt-[3px] lg:pl-[9px] lg:pr-[11px] lg:py-[8px] mt-[4px] pl-[12px] pr-[15.34px] py-[11px] rounded-radius4 w-[100%] xl:mt-[3px] xl:pl-[10px] xl:pr-[13px] xl:py-[9px]"
-                          name="Enter website"
+                          name="Group64"
                           placeholder="Enter website"
                           suffix={
                             <Image
@@ -508,7 +508,7 @@ const AddAccountPage = () => {
                             <Input
                               className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                               WrapClassName="2xl:pr-[21px] 2xl:py-[12px] 3xl:pl-[19px] 3xl:pr-[26px] 3xl:py-[15px] border border-gray_200 border-solid flex lg:mt-[3px] lg:pl-[12px] lg:pr-[16px] lg:py-[9px] mt-[4px] pl-[16px] pr-[21.66px] py-[12.5px] rounded-radius4 w-[100%] xl:mt-[3px] xl:pl-[14px] xl:pr-[19px] xl:py-[11px]"
-                              name="Enter phone num"
+                              name="Group65"
                               placeholder="Enter phone number"
                               suffix={
                                 <Image

@@ -100,11 +100,11 @@ const AddnotesPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic p-[0] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                   WrapClassName="2xl:py-[16px] 3xl:pl-[12px] 3xl:py-[19px] bg-white_A700 border border-gray_200 border-solid flex lg:pl-[7px] lg:py-[12px] pl-[10px] pr-[0] py-[16.5px] rounded-radius4 w-[11%] xl:pl-[8px] xl:py-[14px]"
-                  name="Email"
+                  name="Group305"
                   placeholder="Email"
                   prefix={
                     <Image
-                      src={"images/img_vector_116.svg"}
+                      src={"images/img_vector_115.svg"}
                       className="w-[20px] lg:w-[15px] xl:w-[17px] 3xl:w-[24px] my-[auto]"
                       alt="Vector"
                     />
@@ -124,7 +124,7 @@ const AddnotesPage = () => {
                       Call
                     </Text>
                     <Image
-                      src={"images/img_angledownsoli_6.svg"}
+                      src={"images/img_angledownsoli_5.svg"}
                       className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       alt="angledownSoli"
                     />
@@ -139,7 +139,7 @@ const AddnotesPage = () => {
                       SMS
                     </Text>
                     <Image
-                      src={"images/img_angledownsoli_7.svg"}
+                      src={"images/img_angledownsoli_6.svg"}
                       className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       alt="angledownSoli"
                     />
@@ -169,7 +169,7 @@ const AddnotesPage = () => {
                       Meeting
                     </Text>
                     <Image
-                      src={"images/img_angledownsoli_8.svg"}
+                      src={"images/img_angledownsoli_7.svg"}
                       className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       alt="angledownSoli"
                     />
@@ -184,7 +184,7 @@ const AddnotesPage = () => {
                       Add deal
                     </Text>
                     <Image
-                      src={"images/img_angledownsoli_9.svg"}
+                      src={"images/img_angledownsoli_8.svg"}
                       className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       alt="angledownSoli"
                     />

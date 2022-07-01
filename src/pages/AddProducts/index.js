@@ -49,11 +49,11 @@ const AddProductsPage = () => {
                   <Input
                     className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-white_A700 text-white_A700 w-[100%]"
                     WrapClassName="2xl:pr-[22px] 3xl:pl-[19px] 3xl:pr-[27px] 3xl:py-[15px] bg-bluegray_900 border border-gray_200 border-solid flex lg:pl-[12px] lg:pr-[17px] lg:py-[10px] pl-[16px] pr-[22.8px] py-[13px] rounded-radius4 w-[19%] xl:pl-[14px] xl:pr-[20px] xl:py-[11px]"
-                    name="Add product"
+                    name="Group341"
                     placeholder="Add product"
                     suffix={
                       <Image
-                        src={"images/img_vector_117.svg"}
+                        src={"images/img_vector_116.svg"}
                         className="w-[10.4px] lg:w-[8px] xl:w-[9px] 2xl:w-[10px] 3xl:w-[12px] my-[auto]"
                         alt="Vector"
                       />
@@ -62,11 +62,11 @@ const AddProductsPage = () => {
                   <Input
                     className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                     WrapClassName="2xl:pr-[22px] 3xl:ml-[12px] 3xl:pl-[19px] 3xl:pr-[27px] 3xl:py-[15px] bg-white_A700 border border-gray_200 border-solid flex lg:ml-[7px] lg:pl-[12px] lg:pr-[17px] lg:py-[10px] ml-[10px] pl-[16px] pr-[22.8px] py-[13px] rounded-radius4 w-[21%] xl:ml-[8px] xl:pl-[14px] xl:pr-[20px] xl:py-[11px]"
-                    name="Add categories"
+                    name="Group342"
                     placeholder="Add categories"
                     suffix={
                       <Image
-                        src={"images/img_vector_118.svg"}
+                        src={"images/img_vector_117.svg"}
                         className="w-[10.4px] lg:w-[8px] xl:w-[9px] 2xl:w-[10px] 3xl:w-[12px] my-[auto]"
                         alt="Vector"
                       />
@@ -82,7 +82,7 @@ const AddProductsPage = () => {
                       Edit coumns
                     </Text>
                     <Image
-                      src={"images/img_angledownsoli_10.svg"}
+                      src={"images/img_angledownsoli_9.svg"}
                       className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       alt="angledownSoli"
                     />
@@ -173,7 +173,7 @@ const AddProductsPage = () => {
                             className="2xl:py-[15px] 3xl:pl-[67px] 3xl:py-[18px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[43px] lg:py-[12px] pb-[15.49px] pl-[56px] pr-[0] pt-[15.5px] text-center w-[100%] xl:pl-[49px] xl:py-[13px]"
                             leftIcon={
                               <Image
-                                src={"images/img_vector_119.svg"}
+                                src={"images/img_vector_118.svg"}
                                 className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                                 alt="Vector"
                               />
@@ -199,14 +199,14 @@ const AddProductsPage = () => {
                       <CheckBox
                         className="absolute font-semibold left-[7%] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 top-[8%] uppercase w-[27%]"
                         inputClassName="2xl:h-[23px] 3xl:h-[27px] 3xl:w-[26px] bg-white_A700 border-bluegray_300 border-bw083 border-solid h-[22px] lg:h-[18px] lg:w-[17px] rounded-radius25 w-[22px] xl:h-[20px] xl:w-[19px] mr-[5px]"
-                        name="Group359"
+                        name="Group351"
                         label="Name"
                       ></CheckBox>
                     </Stack>
                     <CheckBox
                       className="absolute bottom-[25%] font-bold font-inter left-[7%] lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[28%]"
                       inputClassName="2xl:h-[28px] 3xl:h-[33px] 3xl:w-[32px] bg-white_A700 border-bluegray_300 border-bw083 border-solid h-[27px] lg:h-[21px] lg:w-[21px] rounded-radius25 w-[27px] xl:h-[25px] xl:w-[24px] mr-[5px]"
-                      name="Group360"
+                      name="Group352"
                       label="Je"
                     ></CheckBox>
                   </Stack>
@@ -215,7 +215,7 @@ const AddProductsPage = () => {
                       className="2xl:pr-[46px] 3xl:pl-[14px] 3xl:pr-[55px] 3xl:py-[19px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[9px] lg:pr-[35px] lg:py-[12px] pl-[12px] pr-[45.99px] py-[16px] text-center w-[100%] xl:pl-[10px] xl:pr-[40px] xl:py-[14px]"
                       rightIcon={
                         <Image
-                          src={"images/img_vector_120.svg"}
+                          src={"images/img_vector_119.svg"}
                           className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                           alt="Vector"
                         />
@@ -228,7 +228,7 @@ const AddProductsPage = () => {
                     <Input
                       className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                       WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                      name="Yes"
+                      name="Group322"
                       placeholder="Yes"
                     ></Input>
                   </Column>
@@ -237,7 +237,7 @@ const AddProductsPage = () => {
                       className="2xl:pr-[88px] 3xl:pl-[14px] 3xl:pr-[105px] 3xl:py-[19px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[9px] lg:pr-[68px] lg:py-[12px] pl-[12px] pr-[87.99px] py-[16px] text-center w-[100%] xl:pl-[10px] xl:pr-[78px] xl:py-[14px]"
                       rightIcon={
                         <Image
-                          src={"images/img_vector_121.svg"}
+                          src={"images/img_vector_120.svg"}
                           className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                           alt="Vector"
                         />
@@ -250,7 +250,7 @@ const AddProductsPage = () => {
                     <Input
                       className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                       WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                      name="--"
+                      name="Group324"
                       placeholder="--"
                     ></Input>
                   </Column>
@@ -258,13 +258,13 @@ const AddProductsPage = () => {
                     <Input
                       className="bg-transparent border-0 font-semibold xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_901 text-bluegray_901 uppercase w-[100%]"
                       WrapClassName="bg-gray_100 border border-gray_200 border-solid w-[100%]"
-                      name="category"
+                      name="Group327"
                       placeholder="category"
                     ></Input>
                     <Input
                       className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                       WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                      name="Hardware"
+                      name="Group326"
                       placeholder="Hardware"
                     ></Input>
                   </Column>
@@ -273,7 +273,7 @@ const AddProductsPage = () => {
                       className="2xl:py-[19px] 3xl:pl-[112px] 3xl:py-[23px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[73px] lg:py-[15px] pb-[19.49px] pl-[94px] pr-[0] pt-[19.5px] text-center w-[100%] xl:pl-[83px] xl:py-[17px]"
                       leftIcon={
                         <Image
-                          src={"images/img_vector_122.svg"}
+                          src={"images/img_vector_121.svg"}
                           className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                           alt="Vector"
                         />
@@ -286,7 +286,7 @@ const AddProductsPage = () => {
                     <Input
                       className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                       WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                      name="A few seconds a"
+                      name="Group328"
                       placeholder="A few seconds ago"
                     ></Input>
                   </Column>
@@ -295,7 +295,7 @@ const AddProductsPage = () => {
                       className="2xl:py-[19px] 3xl:pl-[112px] 3xl:py-[23px] bg-gray_100 border border-gray_200 border-solid flex items-center justify-between lg:pl-[73px] lg:py-[15px] pb-[19.49px] pl-[94px] pr-[0] pt-[19.5px] text-center w-[100%] xl:pl-[83px] xl:py-[17px]"
                       leftIcon={
                         <Image
-                          src={"images/img_vector_123.svg"}
+                          src={"images/img_vector_122.svg"}
                           className="w-[10.01px] text-center lg:w-[7px] xl:w-[8px] 2xl:w-[10px] 3xl:w-[12px]"
                           alt="Vector"
                         />
@@ -308,7 +308,7 @@ const AddProductsPage = () => {
                     <Input
                       className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:py-[30px] xl:py-[34px] py-[39px] 3xl:py-[46px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                       WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
-                      name="Jemee Tala"
+                      name="Group330"
                       placeholder="Jemee Tala"
                     ></Input>
                   </Column>
@@ -328,11 +328,11 @@ const AddProductsPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
                   WrapClassName="2xl:pb-[19px] 2xl:pt-[18px] 3xl:pb-[23px] 3xl:pl-[19px] 3xl:pr-[24px] 3xl:pt-[22px] bg-gray_100 border border-indigo_50 border-solid flex lg:pb-[15px] lg:pl-[12px] lg:pr-[15px] lg:pt-[14px] pb-[19.5px] pl-[16px] pr-[20px] pt-[18.5px] w-[100%] xl:pb-[17px] xl:pl-[14px] xl:pr-[17px] xl:pt-[16px]"
-                  name="Add Product"
+                  name="Group340"
                   placeholder="Add Product"
                   suffix={
                     <Image
-                      src={"images/img_vector_124.svg"}
+                      src={"images/img_vector_123.svg"}
                       className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                       alt="Vector"
                     />
@@ -362,11 +362,11 @@ const AddProductsPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                   WrapClassName="2xl:pr-[21px] 2xl:py-[12px] 3xl:pl-[19px] 3xl:pr-[26px] 3xl:py-[15px] border border-gray_200 border-solid flex lg:mt-[3px] lg:pl-[12px] lg:pr-[16px] lg:py-[9px] mt-[4px] pl-[16px] pr-[21.66px] py-[12.5px] rounded-radius4 w-[100%] xl:mt-[3px] xl:pl-[14px] xl:pr-[19px] xl:py-[11px]"
-                  name="Choose value"
+                  name="Group348"
                   placeholder="Choose value"
                   suffix={
                     <Image
-                      src={"images/img_vector_125.svg"}
+                      src={"images/img_vector_124.svg"}
                       className="w-[8.67px] lg:w-[6px] xl:w-[7px] 2xl:w-[8px] 3xl:w-[10px] my-[auto]"
                       alt="Vector"
                     />
@@ -374,7 +374,7 @@ const AddProductsPage = () => {
                 ></Input>
                 <Row className="items-center justify-start lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[24%]">
                   <Image
-                    src={"images/img_checkbox_6.svg"}
+                    src={"images/img_checkbox_5.svg"}
                     className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                     alt="Checkbox"
                   />
@@ -388,7 +388,7 @@ const AddProductsPage = () => {
                 <Input
                   className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] xl:py-[11px] py-[12.5px] 2xl:py-[12px] 3xl:py-[15px] lg:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
                   WrapClassName="border border-gray_200 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
-                  name="Enter value"
+                  name="Group334"
                   placeholder="Enter value"
                 ></Input>
               </Column>
@@ -417,7 +417,7 @@ const AddProductsPage = () => {
                   className="2xl:pr-[17px] 2xl:py-[12px] 3xl:pl-[19px] 3xl:pr-[21px] 3xl:py-[15px] border border-gray_200 border-solid flex items-center justify-between lg:mt-[3px] lg:pl-[12px] lg:pr-[13px] lg:py-[9px] mt-[4px] pl-[16px] pr-[17.66px] py-[12.5px] rounded-radius4 text-center w-[100%] xl:mt-[3px] xl:pl-[14px] xl:pr-[15px] xl:py-[11px]"
                   rightIcon={
                     <Image
-                      src={"images/img_vector_126.svg"}
+                      src={"images/img_vector_125.svg"}
                       className="w-[16.67px] h-[16.67px] text-center lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px]"
                       alt="Vector"
                     />
@@ -433,11 +433,11 @@ const AddProductsPage = () => {
               <Input
                 className="bg-transparent border-0 font-normal not-italic p-[0] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
                 WrapClassName="2xl:py-[14px] 3xl:pl-[21px] 3xl:py-[17px] bg-white_A700 border border-gray_200 border-solid flex lg:pl-[14px] lg:py-[11px] pl-[18px] pr-[0] py-[14.5px] rounded-radius4 w-[33%] xl:pl-[16px] xl:py-[12px]"
-                name="Customize field"
+                name="Group350"
                 placeholder="Customize fields"
                 prefix={
                   <Image
-                    src={"images/img_vector_127.svg"}
+                    src={"images/img_vector_126.svg"}
                     className="w-[20px] h-[20px] lg:w-[15px] lg:h-[16px] xl:w-[17px] xl:h-[18px] 2xl:h-[21px] 3xl:w-[24px] 3xl:h-[25px] my-[auto]"
                     alt="Vector"
                   />
